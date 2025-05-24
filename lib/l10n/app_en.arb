@@ -1,0 +1,20 @@
+{
+  "@@locale": "en",
+  "appTitle": "Plant Care",
+  "homeAllPlants": "All Plants",
+  "settings": "Settings",
+  "darkMode": "Dark Mode",
+  "switchLanguage": "Switch to Arabic",
+  "scanCamera": "Take Photo",
+  "scanGallery": "Insert Photo",
+  "description": "Description",
+  "diseases": "Diseases",
+  "careGuides": "Care Guides",
+  "scanTitle": "Scan",
+  "noImageChosen": "No image chosen",
+  "identifying": "Identifying…",
+  "showPlantDetails": "Show Plant Details",
+  "cancel": "Cancel",
+  "english": "English",
+  "switchLanguage": "Switch to Arabic"
+}

@@ -1,0 +1,223 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.plant_care"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/issarj/AndroidStudioProjects/green_heart-main/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/Users/issarj/AndroidStudioProjects/green_heart-main/android/app/src/debug/AndroidManifest.xml:6:22-64
+16
+17    <permission
+17-->[androidx.core:core:1.13.1] /Users/issarj/.gradle/caches/transforms-4/9bbab9a8113d55637f1acc6c5323cd78/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.plant_care.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.13.1] /Users/issarj/.gradle/caches/transforms-4/9bbab9a8113d55637f1acc6c5323cd78/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.13.1] /Users/issarj/.gradle/caches/transforms-4/9bbab9a8113d55637f1acc6c5323cd78/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.plant_care.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.13.1] /Users/issarj/.gradle/caches/transforms-4/9bbab9a8113d55637f1acc6c5323cd78/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.13.1] /Users/issarj/.gradle/caches/transforms-4/9bbab9a8113d55637f1acc6c5323cd78/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+22
+23    <application
+24        android:name="android.app.Application"
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.13.1] /Users/issarj/.gradle/caches/transforms-4/9bbab9a8113d55637f1acc6c5323cd78/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:icon="@mipmap/ic_launcher"
+29        android:label="GrowBuddy" >
+30        <activity
+31            android:name="com.example.plant_care.MainActivity"
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33            android:exported="true"
+34            android:hardwareAccelerated="true"
+35            android:launchMode="singleTop"
+36            android:theme="@style/LaunchTheme"
+37            android:windowSoftInputMode="adjustResize" >
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+46                android:name="io.flutter.embedding.android.NormalTheme"
+47                android:resource="@style/NormalTheme" />
+48
+49            <intent-filter>
+50                <action android:name="android.intent.action.MAIN" />
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+53            </intent-filter>
+54        </activity>
+55        <!--
+56             Don't delete the meta-data below.
+57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+58        -->
+59        <meta-data
+60            android:name="flutterEmbedding"
+61            android:value="2" />
+62
+63        <provider
+63-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:9-17:20
+64            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+64-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-82
+65            android:authorities="com.example.plant_care.flutter.image_provider"
+65-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-74
+66            android:exported="false"
+66-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-37
+67            android:grantUriPermissions="true" >
+67-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-47
+68            <meta-data
+68-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-16:75
+69                android:name="android.support.FILE_PROVIDER_PATHS"
+69-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:17-67
+70                android:resource="@xml/flutter_image_picker_file_paths" />
+70-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:17-72
+71        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+72        <service
+72-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:9-31:19
+73            android:name="com.google.android.gms.metadata.ModuleDependencies"
+73-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-78
+74            android:enabled="false"
+74-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:13-36
+75            android:exported="false" >
+75-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:13-37
+76            <intent-filter>
+76-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-26:29
+77                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+77-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:17-94
+77-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:25-91
+78            </intent-filter>
+79
+80            <meta-data
+80-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:13-30:36
+81                android:name="photopicker_activity:0:required"
+81-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:17-63
+82                android:value="" />
+82-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:17-33
+83        </service>
+84        <!--
+85           Declares a provider which allows us to store files to share in
+86           '.../caches/share_plus' and grant the receiving action access
+87        -->
+88        <provider
+88-->[:share_plus] /Users/issarj/AndroidStudioProjects/green_heart-main/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:9-21:20
+89            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+89-->[:share_plus] /Users/issarj/AndroidStudioProjects/green_heart-main/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-77
+90            android:authorities="com.example.plant_care.flutter.share_provider"
+90-->[:share_plus] /Users/issarj/AndroidStudioProjects/green_heart-main/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:13-74
+91            android:exported="false"
+91-->[:share_plus] /Users/issarj/AndroidStudioProjects/green_heart-main/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-37
+92            android:grantUriPermissions="true" >
+92-->[:share_plus] /Users/issarj/AndroidStudioProjects/green_heart-main/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:13-47
+93            <meta-data
+93-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-16:75
+94                android:name="android.support.FILE_PROVIDER_PATHS"
+94-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:17-67
+95                android:resource="@xml/flutter_share_file_paths" />
+95-->[:image_picker_android] /Users/issarj/AndroidStudioProjects/green_heart-main/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:17-72
+96        </provider>
+97        <!--
+98           This manifest declared broadcast receiver allows us to use an explicit
+99           Intent when creating a PendingItent to be informed of the user's choice
+100        -->
+101        <receiver
+101-->[:share_plus] /Users/issarj/AndroidStudioProjects/green_heart-main/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:9-32:20
+102            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+102-->[:share_plus] /Users/issarj/AndroidStudioProjects/green_heart-main/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:27:13-82
+103            android:exported="false" >
+103-->[:share_plus] /Users/issarj/AndroidStudioProjects/green_heart-main/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:13-37
+104            <intent-filter>
+104-->[:share_plus] /Users/issarj/AndroidStudioProjects/green_heart-main/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:13-31:29
+105                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+105-->[:share_plus] /Users/issarj/AndroidStudioProjects/green_heart-main/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:17-65
+105-->[:share_plus] /Users/issarj/AndroidStudioProjects/green_heart-main/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:25-62
+106            </intent-filter>
+107        </receiver>
+108
+109        <provider
+109-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/issarj/.gradle/caches/transforms-4/84b05c4f9ada3d4eed7ceea759f8bf1d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+110            android:name="androidx.startup.InitializationProvider"
+110-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/issarj/.gradle/caches/transforms-4/84b05c4f9ada3d4eed7ceea759f8bf1d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+111            android:authorities="com.example.plant_care.androidx-startup"
+111-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/issarj/.gradle/caches/transforms-4/84b05c4f9ada3d4eed7ceea759f8bf1d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+112            android:exported="false" >
+112-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/issarj/.gradle/caches/transforms-4/84b05c4f9ada3d4eed7ceea759f8bf1d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+113            <meta-data
+113-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/issarj/.gradle/caches/transforms-4/84b05c4f9ada3d4eed7ceea759f8bf1d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+114                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+114-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/issarj/.gradle/caches/transforms-4/84b05c4f9ada3d4eed7ceea759f8bf1d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+115                android:value="androidx.startup" />
+115-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/issarj/.gradle/caches/transforms-4/84b05c4f9ada3d4eed7ceea759f8bf1d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+116            <meta-data
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+117                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+118                android:value="androidx.startup" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+119        </provider>
+120
+121        <uses-library
+121-->[androidx.window:window:1.2.0] /Users/issarj/.gradle/caches/transforms-4/173fe239135051fbdfb587a8a32261e2/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+122            android:name="androidx.window.extensions"
+122-->[androidx.window:window:1.2.0] /Users/issarj/.gradle/caches/transforms-4/173fe239135051fbdfb587a8a32261e2/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+123            android:required="false" />
+123-->[androidx.window:window:1.2.0] /Users/issarj/.gradle/caches/transforms-4/173fe239135051fbdfb587a8a32261e2/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+124        <uses-library
+124-->[androidx.window:window:1.2.0] /Users/issarj/.gradle/caches/transforms-4/173fe239135051fbdfb587a8a32261e2/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+125            android:name="androidx.window.sidecar"
+125-->[androidx.window:window:1.2.0] /Users/issarj/.gradle/caches/transforms-4/173fe239135051fbdfb587a8a32261e2/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+126            android:required="false" />
+126-->[androidx.window:window:1.2.0] /Users/issarj/.gradle/caches/transforms-4/173fe239135051fbdfb587a8a32261e2/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+127
+128        <receiver
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+129            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+130            android:directBootAware="false"
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+131            android:enabled="true"
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+132            android:exported="true"
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+133            android:permission="android.permission.DUMP" >
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+135                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+136            </intent-filter>
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+138                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+141                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+144                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/issarj/.gradle/caches/transforms-4/72c3559a2dbe05490d56624d7c5cbc0b/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+145            </intent-filter>
+146        </receiver>
+147    </application>
+148
+149</manifest>

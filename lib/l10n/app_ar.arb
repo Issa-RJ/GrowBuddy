@@ -1,0 +1,20 @@
+{
+  "@@locale": "ar",
+  "appTitle": "رعاية النباتات",
+  "homeAllPlants": "كافة النباتات",
+  "settings": "الإعدادات",
+  "darkMode": "الوضع الداكن",
+  "switchLanguage": "Switch to English",
+  "scanCamera": "التقط صورة",
+  "scanGallery": "إدراج صورة",
+  "description": "الوصف",
+  "diseases": "الأمراض",
+  "careGuides": "دليل الرعاية",
+  "scanTitle": "المسح",
+  "noImageChosen": "لم يتم اختيار صورة",
+  "identifying": "جاري التعرف…",
+  "showPlantDetails": "عرض تفاصيل النبات",
+  "cancel": "إلغاء",
+  "english": "الإنجليزية",
+  "switchLanguage": "التبديل إلى الإنجليزية"
+}
